@@ -91,7 +91,7 @@ class _Food_ExpressState extends State<Food_Express> {
               ),
               height: 10,
               width: 9,
-            )
+            ),
           ],
         ),
         Padding(

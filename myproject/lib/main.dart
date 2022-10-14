@@ -15,6 +15,6 @@ void main() {
     // theme: ThemeData(brightness: Brightness.dark),
     title: "demo",
     theme: ThemeData(brightness: Brightness.light),
-    home: ALODOCKTER_DESIGN(),
+    home: MyProgram1(),
   ));
 }
