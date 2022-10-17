@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:myproject/DemoApplicationDesign.dart';
+import 'package:myproject/Designs/DemoApplicationDesign.dart';
 
 class ElevetedButtonexample extends StatefulWidget {
   const ElevetedButtonexample({super.key});

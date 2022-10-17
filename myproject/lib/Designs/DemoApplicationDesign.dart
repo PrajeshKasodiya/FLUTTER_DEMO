@@ -97,14 +97,15 @@ class _HomeState extends State<Home> {
                   ElevatedButton(
                     onPressed: () {},
                     child: Text("Button-2"),
-                    style:
-                        ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.redAccent),
                   ),
                   ElevatedButton(
                     onPressed: () {},
                     child: Text("Button-3"),
-                    style:
-                        ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                    ),
                   ),
                   ElevatedButton(
                     onPressed: () {},
