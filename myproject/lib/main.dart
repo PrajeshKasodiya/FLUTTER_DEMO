@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:myproject/Designs/ALODOCKTER.dart';
 import 'package:myproject/Designs/DemoApplicationDesign.dart';
 import 'package:myproject/Designs/Food_Express.dart';
+import 'package:myproject/Module-2/QuestionThree.dart';
 import 'package:myproject/Module-2/QuestionTwo.dart';
+import 'package:myproject/Quiz/Render.dart';
 import 'package:myproject/Shopping_App/Pages/HomePage.dart';
 import 'package:myproject/Designs/flutter_dart.dart';
 import 'package:myproject/Designs/TaskDesign.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: QuestionTwo(),
+      home: renderGame(),
     );
   }
 }
